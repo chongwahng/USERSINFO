@@ -1,0 +1,4 @@
+GET http://localhost:4004/graph-api/Group
+
+###
+GET http://localhost:4004/graph-api/Member?$filter=groupId_id eq 02fc5c92-dd0e-4c51-9c00-67e69876a194
