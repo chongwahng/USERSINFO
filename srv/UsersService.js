@@ -1,5 +1,4 @@
 const cdsapi = require('@sapmentors/cds-scp-api')
-const { getDestination } = require('@sap-cloud-sdk/core')
 
 module.exports = async function (srv) {
     srv.on('READ', 'Group', getUserGroups)
